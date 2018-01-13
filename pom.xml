@@ -6,7 +6,12 @@
 
     <groupId>pl.harpi.muffin</groupId>
     <artifactId>muffin-customer-mgmt</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>muffin-customer-mgmt-api</module>
+        <module>muffin-customer-mgmt-app</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -17,7 +22,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.8.RELEASE</version>
+        <version>1.5.9.RELEASE</version>
     </parent>
 
     <dependencies>
@@ -42,6 +47,11 @@
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>pl.harpi.muffin</groupId>
+            <artifactId>muffin-address-repository-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

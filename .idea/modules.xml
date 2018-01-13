@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/muffin-customer-mgmt.iml" filepath="$PROJECT_DIR$/muffin-customer-mgmt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muffin-customer-mgmt-api/muffin-customer-mgmt-api.iml" filepath="$PROJECT_DIR$/muffin-customer-mgmt-api/muffin-customer-mgmt-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muffin-customer-mgmt-app/muffin-customer-mgmt-app.iml" filepath="$PROJECT_DIR$/muffin-customer-mgmt-app/muffin-customer-mgmt-app.iml" />
     </modules>
   </component>
 </project>
